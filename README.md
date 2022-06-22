@@ -22,8 +22,11 @@ We'll create the element like this:
 ```
      var removeNode=event.target;
 ```
-## Deektop Design
+## Desktop Design
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/78952955/175110950-5f4d271e-4d1b-406d-b140-7677d596b295.png">
 
 ## Mobile Design
+![image](https://user-images.githubusercontent.com/78952955/175111113-99a18e2d-a04a-4905-9d7a-5bb7cd6a046a.png)
 
 ## Live URL
+https://todo-task-web.netlify.app/
