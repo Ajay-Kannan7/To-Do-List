@@ -85,7 +85,9 @@ body{
 }
 .text-print-to-do .todo-content div{
     width:75%;
+    height:12vh;
     background-color:red;
+    overflow:auto;
     padding:1%;
     border:2px solid #000;
     background: rgb(58,106,180);
