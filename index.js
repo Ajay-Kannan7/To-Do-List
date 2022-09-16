@@ -16,6 +16,7 @@ function addTodo(){
         <div>
             <h3>${todoContent}</h3>
         </div>
+        <button class="update-button">Edit</button>
         <button class="remove-button">Done</button>
     `
     appendNode.append(nodeTodo);
@@ -28,9 +29,14 @@ function addTodo(){
 
 function addEveLisRem(){
     var removeBtn=document.querySelectorAll('.remove-button');
+    var updateButton=document.querySelectorAll('.update-button')
     for(var i=0;i<removeBtn.length;i++){
         var button=removeBtn[i];
         button.addEventListener('click',removeTodo);
+    }
+    for(var i=0;i<updateButton.length;i++){
+        var button=updateButton[i];
+        button.addEventListener('click',updateTask);
     }
 }
 
@@ -47,4 +53,12 @@ function removeTodo(event){
     removeNode.parentElement.remove();
     var value=(appendNode.children.length)
     todoOutput.textContent=value;
+}
+
+function updateTask(event){
+   let parentElement=event.target.parentElement;
+   let editValue=parentElement.children[0].children[0].textContent;
+   parentElement.remove();
+   inputField.value=editValue;
+   console.log(editValue)
 }

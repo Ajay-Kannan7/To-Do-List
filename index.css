@@ -39,7 +39,8 @@ body{
     color:#000;
 }
 .input-text-container button[type="button"],
-.text-print-to-do .remove-button
+.text-print-to-do .remove-button,
+.text-print-to-do .update-button
 {
     font-size:17px;
     font-weight:bolder;
@@ -56,7 +57,8 @@ body{
     transition:all 0.3s ease-in;
 }
 .input-text-container button[type="button"]:hover,
-.text-print-to-do .remove-button:hover
+.text-print-to-do .remove-button:hover,
+.text-print-to-do .update-button:hover
 {
     border-top-right-radius:20px;
     border-bottom-left-radius:20px;
@@ -84,7 +86,7 @@ body{
     border:5px solid #000;
 }
 .text-print-to-do .todo-content div{
-    width:75%;
+    width:60%;
     height:12vh;
     background-color:red;
     overflow:auto;
@@ -134,9 +136,18 @@ body{
         float:none;
         left:0;
     }
-    .text-print-to-do .todo-content .remove-button{
-        width:20%;
+    .text-print-to-do .todo-content{
+        flex-direction:column;
+    }
+    .text-print-to-do .todo-content div{
+        width:100%;
+    }
+    .text-print-to-do .todo-content .remove-button,
+    .text-print-to-do .todo-content .update-button
+    {
+        width:100%;
         font-size:15px;
+        margin-top:3%;
     }
 }
 /*Responsive design ends here*/
