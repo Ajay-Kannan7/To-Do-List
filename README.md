@@ -1,5 +1,5 @@
 # To-Do-List
-This is a to-do list built using HTML, CSS, Javascript.
+This is a to-do list CRUD application built using HTML, CSS, Javascript.
 ## What I learnt
  ### 1) How to use Javscript DOM to dynamically render new element onto the screen as a response using event listeners.
 We'll create the element like this:
