@@ -23,10 +23,10 @@ We'll create the element like this:
      var removeNode=event.target;
 ```
 ## Desktop Design
-<img width="947" alt="image" src="https://user-images.githubusercontent.com/78952955/175110950-5f4d271e-4d1b-406d-b140-7677d596b295.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/78952955/190711342-968d67ea-b563-49c8-ab8e-5cd2ba1a66af.png">
 
 ## Mobile Design
-![image](https://user-images.githubusercontent.com/78952955/175111113-99a18e2d-a04a-4905-9d7a-5bb7cd6a046a.png)
+<img width="217" alt="image" src="https://user-images.githubusercontent.com/78952955/190711586-a703aa06-eef5-4868-b799-3d5a6643accb.png">
 
 ## Live URL
 https://todo-task-web.netlify.app/
